@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0-alpha.1",
   "type": "module",
-  "homepage": "https://tyleretters.github.io/sou.the-rn.info",
+  "homepage": "https://vaporwavemall.com",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
