@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Departure';
+  src: url('/assets/DepartureMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  @apply font-departure bg-alpha text-gamma m-xs;
+  @apply text-sm leading-sm;
+  @apply sm:text-sm sm:leading-sm;
+  @apply md:text-md md:leading-md;
+  @apply lg:text-md lg:leading-md;
+  @apply xl:text-lg xl:leading-lg;
+  @apply xx:text-lg xx:leading-lg;
+}
+
+::selection {
+  @apply bg-gamma text-alpha;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply uppercase;
+}
+
+a,
+a:visited {
+  @apply underline;
+}
+
+a:hover,
+a:active {
+  @apply no-underline bg-gamma text-alpha;
+}
