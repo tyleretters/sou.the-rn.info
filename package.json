@@ -1,7 +1,7 @@
 {
   "name": "southern-information",
   "private": true,
-  "version": "0.0.0-alpha.0",
+  "version": "0.0.0-alpha.1",
   "type": "module",
   "homepage": "https://tyleretters.github.io/sou.the-rn.info",
   "scripts": {
@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
